@@ -1,47 +1,124 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
 }
 
-header {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-section {
-    background: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-h2 {
+body {
+    background: #f5f7fb;
     color: #333;
 }
 
-ul {
-    list-style-type: square;
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #0f172a;
+    color: white;
+    position: sticky;
+    top: 0;
 }
 
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo {
+    color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    color: white;
+}
+
+.hero h1 span {
+    color: #0f172a;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #0f172a;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: #e0f2fe;
+    color: #0284c7;
+    padding: 8px 15px;
+    margin: 8px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Projects */
+.project-box {
+    padding: 15px;
+    background: #f1f5f9;
+    border-left: 4px solid #38bdf8;
+}
+
+/* Contact */
 form input, form textarea {
     width: 100%;
-    margin: 8px 0;
-    padding: 8px;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
 button {
-    background-color: #222;
+    width: 100%;
+    background: #0ea5e9;
     color: white;
-    padding: 10px;
     border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
     cursor: pointer;
 }
 
+/* Footer */
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    color: #555;
 }

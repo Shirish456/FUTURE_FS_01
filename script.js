@@ -1,3 +1,4 @@
-document.querySelector("form").addEventListener("submit", function () {
-    alert("Message sent successfully!");
+document.querySelector("form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    alert("Thanks for contacting me! 😊");
 });
