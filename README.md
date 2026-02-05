@@ -23,4 +23,4 @@ to showcase my skills, projects, and professional profile.
 (To be added after deployment)
 
 ## Author
-Nagesh Jaybhaye
+Shirish Adak
